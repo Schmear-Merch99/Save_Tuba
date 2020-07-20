@@ -1,9 +1,10 @@
-<!-- XML file for the shape (saved in res/drawable) -->
-<?xml version="1.0" encoding="utf-8"?>
+
+
 <shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
     <corners android:radius="20dp"/>
     <solid android:color="#FF343F4B"/>
     <size android:height="90dp" android:width="148dp"/>
     <stroke android:width="2.5dp" android:color="#FFFFFFFF"/>
+
 </shape>
 
