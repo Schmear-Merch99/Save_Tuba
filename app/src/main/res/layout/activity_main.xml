@@ -14,7 +14,6 @@
         android:id="@+id/rootRL"
         android:layout_width="726dp"
         android:layout_height="403dp"
-        android:layout_marginTop="28dp"
 
         android:background="@drawable/background"
         android:orientation="horizontal"
@@ -66,17 +65,18 @@
             android:textSize="45sp" />
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="375dp"
-            android:layout_height="165dp"
+            android:id="@+id/imageView6"
+            android:layout_width="176dp"
+            android:layout_height="161dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="-42dp"
-            android:layout_marginLeft="-42dp"
-            android:layout_marginBottom="35dp"
-            android:background="@android:color/transparent"
-            app:srcCompat="@drawable/avatar" />
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginBottom="41dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/avatar_2" />
 
     </RelativeLayout>
 
