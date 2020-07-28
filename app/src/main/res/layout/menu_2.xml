@@ -19,14 +19,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/menu_button" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="207dp"
-        android:layout_height="54dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:srcCompat="@drawable/menuTitle"
-        tools:layout_editor_absoluteY="58dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,30 +10,21 @@
 
     <!-- XML file that applies the style to the TextView (saved in res/layout) -->
     <?xml version="1.0" encoding="utf-8"?>
+
     <RelativeLayout
         android:id="@+id/rootRL"
-        android:layout_width="726dp"
-        android:layout_height="403dp"
+        android:layout_width="783dp"
+        android:layout_height="421dp"
 
+        android:layout_marginTop="55dp"
         android:background="@drawable/background"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="54dp"
-            android:width="849dp"
-            android:height="66dp"
-            android:fontFamily="sans-serif"
-            android:gravity="center"
-            android:lineSpacingMultiplier="1.3"
-            android:style="@style/"
-            android:text="Welcome to a world where you can save Tuba!"
-            android:textColor="#FF000000"
-            android:textSize="30sp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923">
 
         <ImageButton
             android:id="@+id/imageButton2"
@@ -65,18 +56,28 @@
             android:textSize="45sp" />
 
         <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="176dp"
-            android:layout_height="161dp"
+            android:id="@+id/imageView7"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginBottom="1dp"
+            app:srcCompat="@drawable/avatar_back" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="657dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
             android:layout_marginStart="48dp"
             android:layout_marginLeft="48dp"
-            android:layout_marginBottom="41dp"
-            android:background="#00FFFFFF"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:srcCompat="@drawable/avatar_2" />
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/WelcomeTo" />
 
     </RelativeLayout>
 
